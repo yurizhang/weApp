@@ -1,0 +1,141 @@
+<!--
+此文件为开发者工具生成，生成时间: 5/18/2021, 4:02:08 PM
+使用方法：
+在 E:\FED\vant-demo-master\vant-weapp\base\pages\goods\index.wxml 引入模板
+
+```
+<import src="index.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 E:\FED\vant-demo-master\vant-weapp\base\pages\goods\index.wxss 中引入样式
+```
+@import "./index.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view>
+      <view>
+        <view is="miniprogram_npm/@vant/weapp/image/index">
+          <view class=" van-image image-index--van-image" style="width:100%;height:414px">
+            <image class="van-image__img image-index--van-image__img sk-image" mode="scaleToFill"></image>
+          </view>
+        </view>
+      </view>
+      <view is="miniprogram_npm/@vant/weapp/cell-group/index">
+        <view class=" van-cell-group group-index--van-cell-group">
+          <view is="miniprogram_npm/@vant/weapp/cell/index">
+            <view class="goods-message van-cell cell-index--van-cell sk-pseudo sk-pseudo-circle" hover-class="van-cell--hover hover-class" hover-stay-time="70" style="true">
+              <view class="van-cell__title cell-index--van-cell__title sk-transparent" style="true">美国伽力果（约680g/3个）
+                <view class="van-cell__label cell-index--van-cell__label sk-transparent sk-text-16-6667-398 sk-text">¥26.80</view>
+              </view>
+            </view>
+          </view>
+          <view is="miniprogram_npm/@vant/weapp/cell/index">
+            <view class="goods-express van-cell cell-index--van-cell van-cell--borderless cell-index--van-cell--borderless sk-pseudo sk-pseudo-circle" hover-class="van-cell--hover hover-class" hover-stay-time="70" style="true">
+              <view class="van-cell__value cell-index--van-cell__value ">
+                <view is="miniprogram_npm/@vant/weapp/col/index">
+                  <view class="van-col col-index--van-col van-col--10 col-index--van-col--10 sk-transparent sk-text-20-8333-56 sk-text" style="true">运费：免运费</view>
+                </view>
+                <view is="miniprogram_npm/@vant/weapp/col/index">
+                  <view class="van-col col-index--van-col van-col--14 col-index--van-col--14 sk-transparent sk-text-20-8333-651 sk-text" style="true">剩余：19</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view is="miniprogram_npm/@vant/weapp/cell-group/index">
+        <view class="goods-cell-group van-cell-group group-index--van-cell-group van-hairline--top-bottom group-index--van-hairline--top-bottom sk-pseudo sk-pseudo-circle">
+          <view is="miniprogram_npm/@vant/weapp/cell/index">
+            <view class="van-cell cell-index--van-cell van-cell--clickable cell-index--van-cell--clickable sk-pseudo sk-pseudo-circle" hover-class="van-cell--hover hover-class" hover-stay-time="70" style="true">
+              <view is="miniprogram_npm/@vant/weapp/icon/index" class="van-cell__left-icon-wrap cell-index--van-cell__left-icon-wrap">
+                <view class="cell-index--van-cell__left-icon van-icon weapp-icon-index--van-icon van-icon-shop-o weapp-icon-index--van-icon-shop-o sk-pseudo sk-pseudo-circle" style="true"></view>
+              </view>
+              <view class="van-cell__title cell-index--van-cell__title " style="true">
+                <view>
+                  <span class="van-cell-text sk-transparent sk-text-20-8333-42 sk-text">有赞的店</span>
+                  <view is="miniprogram_npm/@vant/weapp/tag/index" class="goods-tag">
+                    <view class="van-tag tag-index--van-tag van-tag--danger tag-index--van-tag--danger sk-transparent sk-text-12-5000-718 sk-text" style="true">官方</view>
+                  </view>
+                </view>
+              </view>
+              <view class="van-cell__value cell-index--van-cell__value sk-transparent sk-text-20-8333-785 sk-text" style="background-position-x: 100%;">进入店铺</view>
+              <view is="miniprogram_npm/@vant/weapp/icon/index" class="van-cell__right-icon-wrap cell-index--van-cell__right-icon-wrap ">
+                <view class="cell-index--van-cell__right-icon van-icon weapp-icon-index--van-icon van-icon-arrow weapp-icon-index--van-icon-arrow sk-pseudo sk-pseudo-circle" style="true"></view>
+              </view>
+            </view>
+          </view>
+          <view is="miniprogram_npm/@vant/weapp/cell/index">
+            <view class="van-cell cell-index--van-cell van-cell--clickable cell-index--van-cell--clickable sk-pseudo sk-pseudo-circle" hover-class="van-cell--hover hover-class" hover-stay-time="70" style="true">
+              <view is="miniprogram_npm/@vant/weapp/icon/index" class="van-cell__left-icon-wrap cell-index--van-cell__left-icon-wrap">
+                <view class="cell-index--van-cell__left-icon van-icon weapp-icon-index--van-icon van-icon-location-o weapp-icon-index--van-icon-location-o sk-pseudo sk-pseudo-circle" style="true"></view>
+              </view>
+              <view class="van-cell__title cell-index--van-cell__title sk-transparent sk-text-20-8333-821 sk-text" style="true">线下门店</view>
+              <view is="miniprogram_npm/@vant/weapp/icon/index" class="van-cell__right-icon-wrap cell-index--van-cell__right-icon-wrap ">
+                <view class="cell-index--van-cell__right-icon van-icon weapp-icon-index--van-icon van-icon-arrow weapp-icon-index--van-icon-arrow sk-pseudo sk-pseudo-circle" style="true"></view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view is="miniprogram_npm/@vant/weapp/goods-action/index">
+        <view class=" van-goods-action action-index--van-goods-action van-goods-action--safe action-index--van-goods-action--safe">
+          <view is="miniprogram_npm/@vant/weapp/goods-action-icon/index">
+            <view is="miniprogram_npm/@vant/weapp/button/index">
+              <button app-parameter="true" business-id="true" class="action-icon-index--van-goods-action-icon van-button weapp-button-index--van-button van-button--default weapp-button-index--van-button--default van-button--large weapp-button-index--van-button--large van-button--square weapp-button-index--van-button--square sk-button sk-pseudo sk-pseudo-circle"
+                data-detail="null" form-type="true" hover-class="van-button--active hover-class" lang="true" open-type="true" send-message-img="true" send-message-path="true" send-message-title="true" session-from="true" style="true">
+                <view class="van-button__text weapp-button-index--van-button__text">
+                  <view is="miniprogram_npm/@vant/weapp/icon/index" class="van-goods-action-icon__icon action-icon-index--van-goods-action-icon__icon">
+                    <view class="van-icon weapp-icon-index--van-icon van-icon-chat-o weapp-icon-index--van-icon-chat-o sk-pseudo sk-pseudo-circle" style="true">
+                      <view is="miniprogram_npm/@vant/weapp/info/index"></view>
+                    </view>
+                  </view>
+                  <text class="sk-transparent sk-text-0-0000-981 sk-text" style="background-position-x: 50%;">我的</text>
+                </view>
+              </button>
+            </view>
+          </view>
+          <view is="miniprogram_npm/@vant/weapp/goods-action-icon/index">
+            <view is="miniprogram_npm/@vant/weapp/button/index">
+              <button app-parameter="true" business-id="true" class="action-icon-index--van-goods-action-icon van-button weapp-button-index--van-button van-button--default weapp-button-index--van-button--default van-button--large weapp-button-index--van-button--large van-button--square weapp-button-index--van-button--square sk-button sk-pseudo sk-pseudo-circle"
+                data-detail="null" form-type="true" hover-class="van-button--active hover-class" lang="true" open-type="true" send-message-img="true" send-message-path="true" send-message-title="true" session-from="true" style="true">
+                <view class="van-button__text weapp-button-index--van-button__text">
+                  <view is="miniprogram_npm/@vant/weapp/icon/index" class="van-goods-action-icon__icon action-icon-index--van-goods-action-icon__icon">
+                    <view class="van-icon weapp-icon-index--van-icon van-icon-cart-o weapp-icon-index--van-icon-cart-o sk-pseudo sk-pseudo-circle" style="true">
+                      <view is="miniprogram_npm/@vant/weapp/info/index"></view>
+                    </view>
+                  </view>
+                  <text class="sk-transparent sk-text-0-0000-534 sk-text" style="background-position-x: 50%;">购物车</text>
+                </view>
+              </button>
+            </view>
+          </view>
+          <view is="miniprogram_npm/@vant/weapp/goods-action-button/index">
+            <view is="miniprogram_npm/@vant/weapp/button/index" class="van-goods-action-button action-button-index--van-goods-action-button van-goods-action-button--warning action-button-index--van-goods-action-button--warning van-goods-action-button--first action-button-index--van-goods-action-button--first">
+              <button app-parameter="true" business-id="true" class="action-button-index--van-goods-action-button__inner van-button weapp-button-index--van-button van-button--warning weapp-button-index--van-button--warning van-button--normal weapp-button-index--van-button--normal sk-pseudo sk-pseudo-circle sk-image"
+                data-detail="null" form-type="true" hover-class="van-button--active hover-class" lang="true" open-type="true" send-message-img="true" send-message-path="true" send-message-title="true" session-from="true" style="border: none;">
+                <view class="van-button__text weapp-button-index--van-button__text sk-transparent sk-text-15-0000-245 sk-text" style="background-position-x: 50%;">
+                  加入购物车
+                </view>
+              </button>
+            </view>
+          </view>
+          <view is="miniprogram_npm/@vant/weapp/goods-action-button/index">
+            <view is="miniprogram_npm/@vant/weapp/button/index" class="van-goods-action-button action-button-index--van-goods-action-button van-goods-action-button--danger action-button-index--van-goods-action-button--danger van-goods-action-button--last action-button-index--van-goods-action-button--last">
+              <button app-parameter="true" business-id="true" class="action-button-index--van-goods-action-button__inner van-button weapp-button-index--van-button van-button--danger weapp-button-index--van-button--danger van-button--normal weapp-button-index--van-button--normal sk-pseudo sk-pseudo-circle sk-image"
+                data-detail="null" form-type="true" hover-class="van-button--active hover-class" lang="true" open-type="true" send-message-img="true" send-message-path="true" send-message-title="true" session-from="true" style="border: none;">
+                <view class="van-button__text weapp-button-index--van-button__text sk-transparent sk-text-15-0000-86 sk-text" style="background-position-x: 50%;">
+                  立即购买
+                </view>
+              </button>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

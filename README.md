@@ -1,2 +1,2 @@
 # weApp
-vant weapp for wechat miniProgram
+vant weapp for wechat mini Program
